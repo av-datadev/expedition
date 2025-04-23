@@ -11,7 +11,6 @@
 # print(type(x))
 
 
-
 # x = str(3)
 # y = int(3)
 # z = float(3)
@@ -100,7 +99,6 @@
 # print("expensive" in txt)
 
 
-
 # Upper/Lower Case
 # a = "Hello, World!"
 # print(a.lower())
@@ -113,7 +111,7 @@
 # a = "Hello, World!"
 # print(a.replace("H", "J"))
 
-#Concatenation of string
+# Concatenation of string
 # a = "Hello"
 # b = "World"
 # c = a + " " + b
@@ -129,7 +127,7 @@
 # txt = "We are the so-called \"Vikings\" from the north."
 # print(txt)
 
-#list lenght
+# list lenght
 
 # thislist = ["apple", "cherry", "banana", "cherry"]
 # print(len(thislist))
@@ -203,13 +201,13 @@
 # thislist.remove("banana")
 # print(thislist)
 
-#remove a specific index
+# remove a specific index
 # thislist = ["apple", "banana", "cherry"]
 # thislist.pop(0)       # if no index is mentioned it will remove the last item.
 # print(thislist)
 
 
-#using del function
+# using del function
 # thislist = ["apple", "banana", "cherry"]
 # del thislist[0]
 # print(thislist)
@@ -266,7 +264,7 @@
 # thislist = [100, 50, 65, 82, 23]
 # thislist.sort()
 # print(thislist)
-# to arrage it in descending order use the reverse = True in 
+# to arrage it in descending order use the reverse = True in
 # thislist.sort(reverse=True)
 
 # Customize Sort Function
@@ -323,7 +321,7 @@
 # thistuple = ("apple" , "banana" , "oranges")
 # print(thistuple)
 
-#SINGLE TUPLE
+# SINGLE TUPLE
 # thistuple = ("apple",)   #comma is important for single tuple creations
 # print(thistuple)
 
@@ -334,17 +332,17 @@
 # # print(tuple2+tuple3)
 # print(type(tuple1))        # for tuple datatype
 
-#ACCESS TUPLE ITEMS
+# ACCESS TUPLE ITEMS
 # thistuple = ("apple", "banana", "cherry")
 # print(thistuple[-3])
 
-#RANGES OF TUPLE
+# RANGES OF TUPLE
 # thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 # print(thistuple[2:5])    # 2 is inclusive and 5 is not
 # thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 # print(thistuple[-4:-1])
 
-#Change Tuple Values
+# Change Tuple Values
 # x = ("apple" , "banana" , "cherry")
 # y = list(x)
 # y[0] = "kiwi"
@@ -525,12 +523,12 @@
 # set3 = set1.intersection(set2)   # this looks for the commom item in the set
 # print(set3)
 
-# Note: The & operator only allows you to join sets with sets, and not with 
+# Note: The & operator only allows you to join sets with sets, and not with
 # other data types like you can with the intersection() method.
 
 # set1 = {"apple", "banana", "cherry"}
-# set2 = {"google", "microsoft", "apple"}  
-# set3 = set1 & set2           
+# set2 = {"google", "microsoft", "apple"}
+# set3 = set1 & set2
 # print(set3)
 
 # interaction_update()
@@ -549,15 +547,15 @@
 # print(set3)
 
 # Difference or (-)
-# The difference() method will return a new set that will contain only the items 
+# The difference() method will return a new set that will contain only the items
 # from the first set that are not present in the other set.
 
-# Note: The - operator only allows you to join sets with sets, 
+# Note: The - operator only allows you to join sets with sets,
 # and not with other data types like you can with the difference() method.
 
 # set1 = {"apple", "banana", "cherry"}
 # set2 = {"google", "microsoft", "apple"}
-# set3 = set1.difference(set2) OR set3 = set1 - set2 
+# set3 = set1.difference(set2) OR set3 = set1 - set2
 # print(set3)
 
 # difference_update()
@@ -571,7 +569,7 @@
 
 # Symmetric Differences or ^
 
-# Note: The ^ operator only allows you to join sets with sets, 
+# Note: The ^ operator only allows you to join sets with sets,
 # and not with other data types like you can with the symmetric_difference() method.
 
 # set1 = {"apple", "banana", "cherry"}
@@ -580,7 +578,7 @@
 # print(set3)
 
 
-#CS50
+# CS50
 
 # ask user's name         ---- mention input wif you want any input from the user.
 # name = input("What is your name? ").strip().title()
