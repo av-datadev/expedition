@@ -1,0 +1,7 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 15,
+    "diffEditor.codeLens": true,
+    "editor.inlineSuggest.showToolbar": "always"
+}
