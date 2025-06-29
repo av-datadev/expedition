@@ -1,3 +1,6 @@
 [submodule "End-To-End-Data-Analytics-Project_Banking"]
 	path = End-To-End-Data-Analytics-Project_Banking
 	url = https://github.com/av-datadev/End-To-End-Data-Analytics-Project_Banking.git
+[submodule "Expedition"]
+	path = Expedition
+	url = https://github.com/av-datadev/Expedition.git
